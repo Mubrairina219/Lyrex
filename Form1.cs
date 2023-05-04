@@ -35,7 +35,7 @@ namespace LaTuerca
 
         private void loginAdmin_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Boton");
+            MessageBox.Show("Boton prueba");
         }
     }
 }
