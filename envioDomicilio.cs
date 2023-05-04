@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace LaTuerca
 {
-    public partial class Form1 : Form
+    public partial class envioDomicilio : Form
     {
-        public Form1()
+        public envioDomicilio()
         {
             InitializeComponent();
-        }
-     
-
-        private void LaTuercaPanel_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -28,14 +22,9 @@ namespace LaTuerca
 
         }
 
-        private void btnMenu_Click(object sender, EventArgs e)
+        private void cancelarDom_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void loginAdmin_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Boton prueba");
+            this.Hide();
         }
     }
 }
