@@ -9,11 +9,11 @@ C:\Users\thele\source\repos\LaTuerca\obj\Debug\LaTuerca.csproj.GenerateResource.
 C:\Users\thele\source\repos\LaTuerca\obj\Debug\LaTuerca.csproj.CoreCompileInputs.cache
 C:\Users\thele\source\repos\LaTuerca\obj\Debug\LaTuerca.exe
 C:\Users\thele\source\repos\LaTuerca\obj\Debug\LaTuerca.pdb
-C:\Users\thele\OneDrive\Escritorio\Lyrex\bin\Debug\LaTuerca.exe.config
 C:\Users\thele\OneDrive\Escritorio\Lyrex\bin\Debug\LaTuerca.exe
-C:\Users\thele\OneDrive\Escritorio\Lyrex\bin\Debug\LaTuerca.pdb
+C:\Users\thele\OneDrive\Escritorio\Lyrex\bin\Debug\LaTuerca.exe.config
 C:\Users\thele\OneDrive\Escritorio\Lyrex\obj\Debug\LaTuerca.csproj.AssemblyReference.cache
 C:\Users\thele\OneDrive\Escritorio\Lyrex\obj\Debug\LaTuerca.csproj.SuggestedBindingRedirects.cache
+C:\Users\thele\OneDrive\Escritorio\Lyrex\obj\Debug\LaTuerca.Administracion.resources
 C:\Users\thele\OneDrive\Escritorio\Lyrex\obj\Debug\LaTuerca.envioDomicilio.resources
 C:\Users\thele\OneDrive\Escritorio\Lyrex\obj\Debug\LaTuerca.menuPrincipal.resources
 C:\Users\thele\OneDrive\Escritorio\Lyrex\obj\Debug\LaTuerca.Properties.Resources.resources
@@ -21,3 +21,4 @@ C:\Users\thele\OneDrive\Escritorio\Lyrex\obj\Debug\LaTuerca.csproj.GenerateResou
 C:\Users\thele\OneDrive\Escritorio\Lyrex\obj\Debug\LaTuerca.csproj.CoreCompileInputs.cache
 C:\Users\thele\OneDrive\Escritorio\Lyrex\obj\Debug\LaTuerca.exe
 C:\Users\thele\OneDrive\Escritorio\Lyrex\obj\Debug\LaTuerca.pdb
+C:\Users\thele\OneDrive\Escritorio\Lyrex\bin\Debug\LaTuerca.pdb

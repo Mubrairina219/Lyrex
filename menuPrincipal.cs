@@ -25,7 +25,10 @@ namespace LaTuerca
 
         private void loginAdmin_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Boton prueba");
+            this.Hide();
+            Form formularioAdmin = new Administracion();
+            formularioAdmin.ShowDialog();
+            
         }
 
         private void Menu_Click(object sender, EventArgs e)
