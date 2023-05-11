@@ -33,9 +33,9 @@
             this.regresarMenu = new System.Windows.Forms.Button();
             this.Ingresar = new System.Windows.Forms.Button();
             this.olvidelacontra = new System.Windows.Forms.Button();
-            this.textoContraseña = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.txtContraseña = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -93,14 +93,6 @@
             this.olvidelacontra.UseVisualStyleBackColor = false;
             this.olvidelacontra.Click += new System.EventHandler(this.olvidelacontra_Click);
             // 
-            // textoContraseña
-            // 
-            this.textoContraseña.Location = new System.Drawing.Point(390, 305);
-            this.textoContraseña.Name = "textoContraseña";
-            this.textoContraseña.Size = new System.Drawing.Size(260, 20);
-            this.textoContraseña.TabIndex = 9;
-            this.textoContraseña.TextChanged += new System.EventHandler(this.textoContraseña_TextChanged);
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -121,19 +113,29 @@
             this.label2.TabIndex = 7;
             this.label2.Text = "Ingreso a Administración";
             // 
+            // txtContraseña
+            // 
+            this.txtContraseña.Location = new System.Drawing.Point(390, 305);
+            this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.Size = new System.Drawing.Size(260, 20);
+            this.txtContraseña.TabIndex = 12;
+            this.txtContraseña.TextChanged += new System.EventHandler(this.textoContraseña_TextChanged_1);
+            // 
             // Administracion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1012, 550);
+            this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.Ingresar);
             this.Controls.Add(this.olvidelacontra);
-            this.Controls.Add(this.textoContraseña);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.regresarMenu);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
             this.Name = "Administracion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -149,8 +151,8 @@
         private System.Windows.Forms.Button regresarMenu;
         private System.Windows.Forms.Button Ingresar;
         private System.Windows.Forms.Button olvidelacontra;
-        private System.Windows.Forms.TextBox textoContraseña;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtContraseña;
     }
 }
